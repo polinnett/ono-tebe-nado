@@ -1,1 +1,57 @@
-/* место для вашего кода */
+/* не забыть убрать!!! */
+html {
+    background-color: black; 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 92px 24px 96px 24px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header__menu {
+    margin-right: 43px;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 24px;
+}
+
+.header__links-list-item {
+    list-style: circle;
+    border-bottom: 1px solid #000;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+    border-bottom: none;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__logo {
+    display: block;
+    width: 130px;
+    margin-right: 191px;
+}
+
+.address {
+    width: 240px;
+    font-style: normal;
+}
+
+.address a {
+    border-bottom: 1px solid #000;
+}
+
+.header__address-street {
+    word-wrap: break-word;
+}
