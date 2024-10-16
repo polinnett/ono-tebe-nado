@@ -2,21 +2,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 92px 24px 96px 24px;
-    padding-right: 25px;
-    padding-left: 25px;
+    margin: 92px 50px 96px 50px;
     font-size: 18px;
     font-weight: normal;
     line-height: 21px;
 }
 
 .header__menu {
-    margin-right: 43px;
+    margin-right: 52px;
 }
 
 .header__links-list {
     display: flex;
-    gap: 24px;
+    gap: 31px;
 }
 
 .header__links-list-item {
@@ -36,13 +34,12 @@
 .header__logo {
     display: block;
     width: 130px;
-    margin-right: 191px;
+    margin-right: 193px;
 }
 
 .address {
-    width: 240px;
+    max-width: 240px;
     font-style: normal;
-    letter-spacing: 1px;
     line-height: 24px;
     font-size: 18px;
 }
@@ -51,12 +48,13 @@
     border-bottom: 1px solid #000;
 }
 
-.header__address-street {
+.address-street {
     word-wrap: break-word;
 }
 
 .cover {
     background-image: url("../images/cover.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -150,7 +148,7 @@
 .lots__card-list-item {
     width: 334px;
     min-height: 563px;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .card-link {
@@ -160,24 +158,27 @@
 
 .card {
     height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-text__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .card_type_film {
     background-image: url("../images/card-lot-01.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_book {
     background-image: url("../images/card-lot-02.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_picture {
     background-image: url("../images/card-lot-03.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .card__title {
@@ -194,14 +195,6 @@
     color: #fff;
     line-height: 120%;
     padding: 0 40px 50px;
-}
-
-.card_type_film .card__title {
-    margin-bottom: 239px;
-}
-
-.card_type_picture .card__title {
-    margin-bottom: 90px;
 }
 
 .lots__look-more-link {
